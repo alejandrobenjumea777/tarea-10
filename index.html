@@ -4,23 +4,97 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Página de Alejandro</title>
     <style>
-        h1 {
+        /* Centramos todos los títulos */
+        h1, h2 {
             text-align: center;
+        }
+
+        /* Estilos para el párrafo */
+        p {
+            text-align: center;   
+            max-width: 600px;    
+            margin: 20px auto;   
+            line-height: 1.6;    
+        }
+
+        /* Estilos para centrar la lista */
+        ul {
+            display: table;      /* Hace que el bloque de la lista solo ocupe el ancho necesario */
+            margin: 0 auto;      /* Centra ese bloque en el medio de la página */
+            text-align: left;    /* Mantiene el texto y los puntos alineados a la izquierda entre sí */
+        }
+
+        li {
+            margin-bottom: 10px; /* Un poco de espacio entre cada personaje */
+        }
+        /* --- Estilos para la TABLA --- */
+        table {
+            margin: 20px auto;       /* Centra la tabla */
+            border-collapse: collapse; /* Hace que las líneas de la tabla sean simples y finas */
+            width: 80%;              /* Ancho de la tabla */
+            max-width: 600px;        /* Evita que se estire demasiado */
+        }
+
+        th, td {
+            border: 1px solid #ccc;  /* Añade un borde gris suave */
+            padding: 10px;           /* Espacio interno para que el texto no toque los bordes */
+            text-align: center;      /* Centra el texto de las celdas */
+        }
+
+        th {
+            background-color: #f4f4f4; /* Un color gris clarito para el encabezado */
         }
     </style>
 </head>
 
 <body>
     <h1>Página de Alejandro</h1>
-    <h2 style="text-align: center;">Sobre mí</h2>
-    <p style="text-align: center;">Soy <b>Alejandro Benjumea</b> y soy estudiante de
+    <h2>Sobre mí</h2>
+    
+    <p>
+        Soy <b>Alejandro Benjumea</b> y soy estudiante de
         2º de bachillerato en el IES Antonio Machado de Sevilla.
-        Odio es sistema educativo y sueño con algún día dedicarme al emprendimiento.
+        Odio el sistema educativo y sueño con algún día dedicarme al emprendimiento.
         Me encanta escuchar música variada, aunque mi cantante favorito es <b>Quevedo</b>,
-        y mi canción favorita <b>"Ahora y siempre"</b>
+        y mi canción favorita <b>"Ahora y siempre"</b>.
     </p>
+
+    <h2>Mis personajes ficticios favoritos</h2>
+    <ul>
+        <li><a href="oogway.html">Maestro Oogway</a></li>
+        <li>Arthur Morgan</li>
+        <li>Link</li>
+    </ul> 
+
+    <h2>Top Canciones de Quevedo</h2>
+    <table>
+        <thead>
+            <tr>
+                <th>Puesto</th>
+                <th>Canción</th>
+                <th>Álbum</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>1</td>
+                <td><a href="https://open.spotify.com/intl-es/track/60cjWFWxGrR5ODt5bqxqIP?si=1f0e13f727224a8c">Ahora y siempre</a></td>
+                <td>Sencillo</td>
+            </tr>
+            <tr>
+                <td>2</td>
+                <td>Donde quiero estar</td>
+                <td>Donde quiero estar</td>
+            </tr>
+            <tr>
+                <td>3</td>
+                <td>Buenas noches</td>
+                <td>Buenas noches</td>
+            </tr>
+        </tbody>
+    </table>
 </body>
 
 </html>
