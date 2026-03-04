@@ -1,0 +1,80 @@
+/* Estilos generales del cuerpo */
+body {
+    background-color: #f4f7f6;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; /* Una fuente algo más profesional */
+    margin: 0;    /* IMPORTANTE: quitamos el margen para que la barra toque los bordes */
+    padding: 0;   /* Quitamos el padding para controlar el espacio nosotros */
+}
+
+/* --- BARRA DEL ENCABEZADO --- */
+h1 {
+    background-color: #2c3e50; /* Azul oscuro tipo ejecutivo/emprendedor */
+    color: white;              /* Letras blancas para que contrasten */
+    margin: 0;                 /* Sin margen para que pegue arriba */
+    padding: 40px 0;           /* Espacio arriba y abajo del texto */
+    text-align: center;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.15); /* Sombra para dar profundidad */
+}
+
+/* Títulos secundarios (sin barra) */
+h2 {
+    text-align: center;
+    color: #333;
+    margin-top: 40px; /* Separación con lo que haya arriba */
+}
+
+/* Contenedor para que el resto del texto no pegue a los bordes */
+p, table, ul {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/* Estilos para el párrafo */
+p {
+    text-align: center;   
+    max-width: 600px;    
+    margin-top: 20px;
+    margin-bottom: 20px;
+    line-height: 1.8;    
+    padding: 0 20px; /* Para que en el móvil no toque los bordes */
+}
+
+/* Estilos para la lista */
+ul {
+    display: table;
+    margin-bottom: 30px;
+    text-align: left;
+}
+
+/* Estilos para la tabla */
+table {
+    border-collapse: collapse;
+    width: 90%;
+    max-width: 600px;
+    background-color: white;
+    margin-bottom: 40px;
+    border-radius: 8px; /* Bordes ligeramente redondeados */
+    overflow: hidden;    /* Para que el redondeado funcione con los bordes internos */
+}
+
+th, td {
+    border: 1px solid #ddd;
+    padding: 12px;
+    text-align: center;
+}
+
+th {
+    background-color: #34495e;
+    color: white;
+}
+
+/* Estilo para los enlaces */
+a {
+    color: #3498db;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+a:hover {
+    text-decoration: underline;
+}
